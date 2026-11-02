@@ -1,0 +1,12 @@
+# Los scripts de Windows se guardan tal cual (CRLF y UTF-8 con BOM)
+*.bat  -text
+*.cmd  -text
+*.ps1  -text
+*.cs   -text
+*.xml  -text
+*.json -text
+*.txt  -text
+*.conf -text
+*.marker -text
+*.md   -text
+*.png  binary

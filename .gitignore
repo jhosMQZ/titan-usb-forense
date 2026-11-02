@@ -1,0 +1,34 @@
+# Binarios de terceros: se descargan aparte (ver README)
+Descargas/*
+!Descargas/LEEME.txt
+Herramientas/ClamAV/*
+!Herramientas/ClamAV/LEEME.txt
+!Herramientas/ClamAV/freshclam.conf
+Herramientas/Smartmontools/*
+!Herramientas/Smartmontools/LEEME.txt
+
+# Motor compilado (se genera con Construir/Compilar-Rescate.ps1)
+*.exe
+*.pdb
+
+# Registros y resultados que generan los .bat
+*_log.txt
+diagnostico_usb.txt
+sintaxis_errores.txt
+prueba_*.txt
+organizar_usb_*.txt
+movimientos_usb_*.csv
+verificacion_respaldo_*.txt
+verificacion_respaldo_*.csv
+registros_prueba/
+
+# Casos y datos de equipos analizados: NUNCA se suben
+Casos/
+*.cuar
+*.vhd
+*.vhdx
+*.wim
+*.iso
+
+# Documentos personales
+TITAN-Inventario.md

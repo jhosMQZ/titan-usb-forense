@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "CarpetasUsuario": [
+    "Documents",
+    "Desktop",
+    "Downloads",
+    "Pictures"
+  ],
+  "CarpetasProyectosCandidatas": [
+    "%USERPROFILE%\\source\\repos",
+    "%USERPROFILE%\\Projects",
+    "%USERPROFILE%\\Proyectos",
+    "%USERPROFILE%\\dev",
+    "%USERPROFILE%\\AppData\\Roaming\\MetaQuotes\\Terminal\\*\\MQL5",
+    "%SYSTEMDRIVE%\\Proyectos",
+    "%SYSTEMDRIVE%\\dev",
+    "%SYSTEMDRIVE%\\xampp\\htdocs",
+    "%SYSTEMDRIVE%\\laragon\\www"
+  ],
+  "ExcluirCarpetasEnRespaldo": [
+    "node_modules"
+  ],
+  "HashAlcance": "TodoElDisco",
+  "ClamAV": {
+    "MaxFileSizeMB": 1000,
+    "MaxScanSizeMB": 2000,
+    "MaxFiles": 50000,
+    "MaxRecursion": 20,
+    "DetectarPUA": false
+  },
+  "CuarentenaMaxMB": 1024,
+  "RobocopyHilos": 4,
+  "RobocopyReintentos": 2,
+  "RobocopyEspera": 5,
+  "MargenLibreMB": 1024,
+  "DiasMaxAntiguedadFirmas": 7,
+  "MarcarOrigenInternet": true,
+  "Blackbox": {
+    "Reintentos": 2,
+    "EsperaMs": 500,
+    "BloqueKB": 1024,
+    "MinimoKB": 4,
+    "MaxIntentosPorArchivo": 3,
+    "UmbralArchivosConFalloFisico": 3,
+    "MaxErroresFisicosPorArchivo": 64,
+    "MargenLibreMB": 512,
+    "EscanearRecuperadosConClamAV": true,
+    "OrdenDentroDePrioridad": "TamanoAscendente",
+    "TiposFirmas": "jpg,png,gif,pdf,zip,sqlite,mp4",
+    "Prioridades": [
+      {
+        "Nombre": "Documentos personales",
+        "Extensiones": [
+          "doc",
+          "docx",
+          "docm",
+          "dot",
+          "dotx",
+          "xls",
+          "xlsx",
+          "xlsm",
+          "xlsb",
+          "csv",
+          "ppt",
+          "pptx",
+          "pps",
+          "ppsx",
+          "pdf",
+          "txt",
+          "rtf",
+          "odt",
+          "ods",
+          "odp",
+          "md",
+          "one",
+          "pages",
+          "numbers",
+          "key",
+          "xps",
+          "epub"
+        ]
+      },
+      {
+        "Nombre": "Fotografías y vídeos",
+        "Extensiones": [
+          "jpg",
+          "jpeg",
+          "png",
+          "gif",
+          "bmp",
+          "tif",
+          "tiff",
+          "heic",
+          "heif",
+          "webp",
+          "raw",
+          "cr2",
+          "cr3",
+          "nef",
+          "arw",
+          "dng",
+          "orf",
+          "rw2",
+          "mp4",
+          "mov",
+          "avi",
+          "mkv",
+          "wmv",
+          "m4v",
+          "3gp",
+          "mts",
+          "m2ts",
+          "webm"
+        ]
+      },
+      {
+        "Nombre": "Escritorio y Descargas",
+        "Carpetas": [
+          "Desktop",
+          "Downloads"
+        ]
+      },
+      {
+        "Nombre": "Bases de datos",
+        "Extensiones": [
+          "sqlite",
+          "sqlite3",
+          "db",
+          "db3",
+          "mdb",
+          "accdb",
+          "sql",
+          "sdf",
+          "mdf",
+          "ldf",
+          "ndf",
+          "dbf",
+          "fdb",
+          "gdb",
+          "bak"
+        ]
+      },
+      {
+        "Nombre": "Proyectos de programación",
+        "Tipos": [
+          "Proyecto"
+        ],
+        "Extensiones": [
+          "ps1",
+          "psm1",
+          "py",
+          "ipynb",
+          "js",
+          "ts",
+          "jsx",
+          "tsx",
+          "cs",
+          "java",
+          "kt",
+          "php",
+          "rb",
+          "go",
+          "rs",
+          "c",
+          "cpp",
+          "h",
+          "hpp",
+          "html",
+          "css",
+          "scss",
+          "json",
+          "yml",
+          "yaml",
+          "xml",
+          "sln",
+          "csproj",
+          "vbproj",
+          "mq4",
+          "mq5",
+          "mqh",
+          "ex4",
+          "ex5",
+          "pine",
+          "sh",
+          "bat"
+        ]
+      },
+      {
+        "Nombre": "Archivos de trabajo",
+        "Extensiones": [
+          "zip",
+          "rar",
+          "7z",
+          "psd",
+          "ai",
+          "indd",
+          "dwg",
+          "dxf",
+          "skp",
+          "blend",
+          "fig",
+          "sketch",
+          "xd",
+          "msg",
+          "eml",
+          "pst",
+          "ost",
+          "vsdx",
+          "mpp",
+          "qbw",
+          "qbb"
+        ]
+      },
+      {
+        "Nombre": "Resto de archivos seleccionados",
+        "Resto": true
+      }
+    ]
+  }
+}

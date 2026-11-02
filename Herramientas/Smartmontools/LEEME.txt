@@ -1,0 +1,5 @@
+Opcional: copie aqui smartctl.exe (de smartmontools para Windows,
+https://www.smartmontools.org). Crear-USB.ps1 lo hace si le pasa -Smartctl.
+
+Sin smartctl, el analizador usa la salud que reporta Windows (Storage WMI)
+y la prediccion de fallo de WMI, que dan menos detalle.

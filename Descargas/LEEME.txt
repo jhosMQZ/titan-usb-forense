@@ -1,0 +1,9 @@
+Coloque aqui el ZIP oficial de ClamAV para Windows x64, sin descomprimir:
+
+  clamav-1.5.4.win.x64.zip
+
+Descarga: https://github.com/Cisco-Talos/clamav/releases/tag/clamav-1.5.4
+SHA-256 esperado (lo comprueba CREAR-USB-TITAN.bat):
+  0D9E0228B2674137EA1A2853566C98A0278AD52AB2582C3D6DBD75373848C395
+
+Este archivo no se incluye en el repositorio.

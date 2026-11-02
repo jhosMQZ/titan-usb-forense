@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Respuestas para wpeinit (WinPE). Se incrusta en X:\Ancla\unattend.xml.
+  - EnableNetwork=false: WinPE no inicia la red. El análisis no la necesita y
+    así no hay superficie remota ni posibilidad de exfiltración.
+  - EnableFirewall=true: firewall de WinPE activo por si la red se iniciara.
+-->
+<unattend xmlns="urn:schemas-microsoft-com:unattend">
+  <settings pass="windowsPE">
+    <component name="Microsoft-Windows-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <EnableNetwork>false</EnableNetwork>
+      <EnableFirewall>true</EnableFirewall>
+    </component>
+  </settings>
+</unattend>

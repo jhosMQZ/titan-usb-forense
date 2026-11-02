@@ -1,0 +1,13 @@
+Aqui va ClamAV portable para Windows x64.
+
+Crear-USB.ps1 lo copia automaticamente desde el ZIP oficial:
+  https://www.clamav.net/downloads  ->  clamav-<version>.win.x64.zip
+(verifique el archivo .sig si sabe usar GPG).
+
+Contenido esperado tras la instalacion:
+  clamscan.exe, freshclam.exe, sigtool.exe, libclamav.dll y demas DLL,
+  freshclam.conf (de este kit) y la carpeta database\ con main.cvd,
+  daily.cvd y bytecode.cvd.
+
+La carpeta database\ NO esta en el manifiesto de hashes: sus archivos .cvd
+se verifican por su firma digital con sigtool al arrancar.
